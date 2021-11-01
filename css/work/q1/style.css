@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+.q1_box {
+  background-color: #3274ae;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 30px;
+  padding: 20px;
+  width: 300px;
+}
+
+.q1_box:first-child {
+  margin: 0;
+}
+
+.q1_text {
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 /* q1が終わったら
 q2のcssはq2フォルダの中のcssファイルに記述してください */
