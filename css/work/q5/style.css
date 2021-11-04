@@ -1,5 +1,61 @@
 @charset "UTF-8";
 
+/*q5の共通CSS*/
+.q5_widht {
+  width: 400px;
+}
+
+.q5_margin-left {
+  margin-left: 60px;
+}
+
+.q5_margin-left:first-child{
+  margin-left: 0;
+}
+
+/*inline-blockだけだと謎のマージンが発生するためfont-sizeを指定*/
+.q5_font-size{
+  font-size: 0;
+}
+
+.q5_inline-block{
+  display: inline-block;
+}
+
+/*q5-1の回答*/
+.q5_float_text{
+  float: left;
+}
+
+/*q5-2の回答*/
+.q5_table{
+  display: table;
+}
+
+.q5_table-cell{
+  display: table-cell;
+  padding-left: 60px;
+}
+
+.q5_table-cell:first-child{
+  padding-left: 0;
+}
+
+/*q5-4の回答*/
+.q5_display-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*q5-5の回答*/
+.q5_calc{
+  width: calc((100% - 50px) / 3);
+  margin-left: 25px;
+}
+
+.q5_calc:first-child{
+  margin-left: 0;
+}
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
