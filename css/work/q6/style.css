@@ -6,14 +6,14 @@
   justify-content: center;
 }
 
-.q6_img_box{
+.q6_img_box {
   margin-left: 50px;
   width: 300px;
   cursor: pointer;
   overflow: hidden;
 }
 
-.q6_img_box:first-child{
+.q6_img_box:first-child {
   margin-left: 0;
 }
 
@@ -30,11 +30,11 @@
 }
 
 /*hoverでスクロール*/
-.q6_hover_text{
+.q6_hover_text {
   position: relative;
 }
 
-.q6_scroll_box{
+.q6_scroll_box {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -45,17 +45,35 @@
   transition: 0.5s;
 }
 
-.q6_scroll_text{
+.q6_scroll_text {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
 }
 
-.q6_hover_text:hover .q6_scroll_box{
+.q6_hover_text:hover .q6_scroll_box {
   bottom: 0;
 }
 
+/*キービジュアルのスクロール*/
+.q6_keyvisual_box {
+  padding: 80px 0;
+  overflow: hidden;
+}
 
+.q6_keyvisual_text {
+  font-size: 200px;
+  animation: keyvisual_scroll-text 10s infinite linear;
+}
+
+@keyframes keyvisual_scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
