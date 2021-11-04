@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+.q7_flex{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.q7_icon{
+  width: 72px;
+  height: 72px;
+}
+
+.q7_icon img{
+  width: 100%;
+}
+
+.q7_voice{
+  position: relative;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  width: 550px;
+  box-sizing: border-box;
+  margin-left: 35px;
+}
+
+.q7_voice::before,
+.q7_voice::after{
+  position: absolute;
+  bottom: 25px;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+}
+
+.q7_voice::before{
+  left: -18px;
+  background-color: #222;
+}
+.q7_voice::after{
+  left: -11px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.q7_text{
+  font-size: 16px;
+  position: relative;
+  z-index: 20;
+}
