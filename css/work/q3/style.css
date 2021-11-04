@@ -85,7 +85,7 @@
   height: 20px;
 }
 
-.q3_fixed_box {
+.q3_box_scroll {
   position: fixed;
   bottom: 50px;
   right: 50px;

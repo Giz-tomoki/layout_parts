@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /*共通のスタイル*/
-.q4_text-center {
+.q4_text-center,
+.q4_1_text-align {
   text-align: center;
 }
 
@@ -10,38 +11,35 @@
 }
 
 /* q4-1の回答 */
-.q4_1_left {
-  text-align: center;
-}
 
-.q4_1_right .q4_margin {
+.q4_1_margin .q4_text-center {
   margin: 0 auto;
 }
 
 /* q4-2の回答 */
-.q4_2_left {
+.q4_2_table {
   display: table;
 }
 
-.q4_2_left .q4_table-cell {
+.q4_table-cell {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q4_2_right{
+.q4_2_flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 /* q4-3の回答 */
-.q4_3_left,
-.q4_3_right {
+.q4_3_fixed,
+.q4_3_relative {
   position: relative;
 }
 
-.q4_3_left .q4_position-fixed {
+.q4_position-fixed {
   position: absolute;
   top: 0;
   right: 0;
@@ -50,7 +48,7 @@
   margin: auto;
 }
 
-.q4_3_right .q4_position-relative {
+.q4_position-relative {
   position: absolute;
   top: 50%;
   left: 50%;
