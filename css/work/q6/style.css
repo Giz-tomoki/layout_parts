@@ -50,6 +50,7 @@
   bottom: 0;
   left: 0;
   padding: 20px;
+  word-break: break-all;
 }
 
 .q6_hover_text:hover .q6_scroll_box {
