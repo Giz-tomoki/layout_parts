@@ -31,24 +31,21 @@
   bottom: 25px;
   content: "";
   display: block;
-  width: 30px;
-  height: 30px;
-  transform: rotate(-45deg);
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
 }
 
 .q7_voice::before{
-  left: -18px;
-  background-color: #222;
+  left: -45px;
+  border-right-color: #222;
 }
 .q7_voice::after{
-  left: -11px;
-  background-color: #fff;
-  z-index: 10;
+  left: -38px;
+  border-right-color: #fff;
 }
 
 .q7_text{
   font-size: 16px;
-  position: relative;
-  z-index: 20;
   word-break: break-all;
 }
